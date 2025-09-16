@@ -5,5 +5,6 @@ int main()
   float a = 3.14*r*r;
 
   printf("The area is %f", a);
+  printf("\nYayy");
   return 0;
 }
