@@ -16,7 +16,7 @@ int main(){
         printf("You failed becuz of individual subject(s)");
     }
     else if((Subject1+Subject2+Subject3)/3 <40){
-        printf("You failed");
+        printf("Lmao! You failed");
     }
     else{
         printf("You are passed");
