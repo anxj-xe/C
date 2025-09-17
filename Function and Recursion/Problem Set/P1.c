@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int avg(int x,int y,int z){
+float avg(int x,int y,int z){
     return (x+y+z)/3;
 }
 
