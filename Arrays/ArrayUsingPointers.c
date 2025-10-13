@@ -7,7 +7,8 @@ int main(){
 
     for(int i=0;i<4;i++){
         //printf("The adress of index %d s %u\n", i, &stud[i]);
-        printf("The adress of index %d s %u\n", i, ptr);
+        
+        printf("The adress of index %d s %u\n", i, ptr);// both are same but here we have to use ptr++
         ptr++;
     }
 
