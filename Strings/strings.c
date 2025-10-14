@@ -5,8 +5,7 @@ int main(){
     char str[]= "abc";// same as above  
     
     for(int i=0;i<3;i++){
-        // printf("characters are %c\n", str[i]);
-        printf("%s", str);
+        printf("characters are %c\n", str[i]);  
         
     }
 

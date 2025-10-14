@@ -21,7 +21,7 @@ int main(){
 
 
     char str1[] = "hii";
-    char str2[] = "stranger";
+    char str2[] = "stranger"; //h comes before s
     int a = strcmp(str1, str2);
 
     printf("%d", a);
