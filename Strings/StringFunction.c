@@ -2,9 +2,9 @@
 #include<string.h>
 int main(){
 
-    // char str[] = "lmao";
+    char str[] = "lmao";
 
-    // printf("%d", strlen(str));
+    printf("%d", strlen(str));
 
 
     // char source[] = "hey im anuj";
@@ -20,11 +20,11 @@ int main(){
     // printf("%s", strcat(str1,str2));
 
 
-    char str1[] = "hii";
-    char str2[] = "stranger"; //h comes before s
-    int a = strcmp(str1, str2);
+    // char str1[] = "hii";
+    // char str2[] = "stranger"; //h comes before s
+    // int a = strcmp(str1, str2);
 
-    printf("%d", a);
+    // printf("%d", a);
     
 
     return 0;
