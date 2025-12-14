@@ -2,7 +2,7 @@
 
 void add(int x,int y){printf("Result: %d", x+y);}
 void subtract(int x,int y){printf("Result: %d", x-y);}
-void multiply(int x,int y){printf("Result: %d", x+y);}
+void multiply(int x,int y){printf("Result: %d", x*y);}
 void divide(int x,int y){printf("Result: %d", x/y);}
 
 int main(){
@@ -20,8 +20,12 @@ int main(){
     printf("Enter choice: ");
     scanf("%d", &choice);
 
-    if(choice>0 && choice<=4){
+    if(choice>0 && choice<4){
         operation[choice-1](a,b);
+    }
+    else if(choice == 4){
+        if(b==0) printf("You can't put denominator as 0");
+        else operation[choice-1](a,b);
     }
     else{
         printf("Invalid choice:(");
