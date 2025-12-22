@@ -17,23 +17,6 @@ int main(){
         {"Preet",18,7.85,false},
         {"Ron",18,5.25,true}
     };
-
-    FILE *fileout = fopen("studentDB.bin","wb");
-    if(fileout!=NULL){
-        fwrite(allstudents,sizeof(Student),6,fileout);
-        fclose(fileout);
-        printf("File saved to disk!!\n\n");
-    }
-
-    Student loadedstudents[6];
-
-    FILE *filein = fopen("studentDB.bin","rb");
-    if(filein!=NULL){
-        fread(loadedstudents,sizeof(Student),6,filein);
-        fclose(filein);
-        printf("File loaded from Disk!!\n\n");
-    }
-    
     int n;
     printf("Enter Roll number: ");
     scanf("%d", &n);
