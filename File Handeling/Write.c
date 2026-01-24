@@ -7,5 +7,7 @@ int main(){
 
     fprintf(fptr, "Hello!");
 
+    fclose(fptr);
+
     return 0;
 }
